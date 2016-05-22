@@ -1,0 +1,3 @@
+[submodule "Qqt"]
+	path = Qqt
+	url = https://github.com/neurocod/Qqt.git
