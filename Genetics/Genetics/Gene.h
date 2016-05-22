@@ -3,6 +3,14 @@
 
 class Gene {
 	public:
+		using Data = QLatin1String;//ATGC or some text for debug purpose
+		Data _data;
+
 		Gene();
+		Gene(const Data & data);
 		virtual ~Gene() {}
+		bool operator==(const Gene & other)const;
+		bool operator<(const Gene & other)const;
+
+		static const Gene MaleGeneInstance;
 };

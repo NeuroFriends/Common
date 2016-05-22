@@ -7,5 +7,7 @@ class Genome {
 		Genome();
 		virtual ~Genome() {}
 
-		QList<Chromosome*> _chromosomes;
+		Chromosome::Pair* sexChromosomes()const;
+		bool isMale()const;
+		QList<Chromosome::Pair*> _chromosomes;
 };

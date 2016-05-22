@@ -5,7 +5,6 @@
 Population::Population() {
 }
 Population::~Population() {
-	auto all = QSet<Organism*>::fromList(_alive);
-	all << QSet<Organism*>::fromList(_dead);
-	qDeleteAll(all);
+	auto listAll = _dead + _alive;
+	qDeleteAll(QSet<Organism*>::fromList(listAll));
 }

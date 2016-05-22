@@ -149,9 +149,60 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Qqt\src\AbstractButtonPropertyRedirects.cpp" />
+    <ClCompile Include="..\..\Qqt\src\AbstractSpinBoxPropertyRedirects.cpp" />
+    <ClCompile Include="..\..\Qqt\src\Action.cpp" />
+    <ClCompile Include="..\..\Qqt\src\BoxLayout.cpp" />
+    <ClCompile Include="..\..\Qqt\src\ButtonGroup.cpp" />
+    <ClCompile Include="..\..\Qqt\src\CheckBox.cpp" />
+    <ClCompile Include="..\..\Qqt\src\ComboBox.cpp" />
+    <ClCompile Include="..\..\Qqt\src\CompactHBoxLayout.cpp" />
+    <ClCompile Include="..\..\Qqt\src\CompactVBoxLayout.cpp" />
+    <ClCompile Include="..\..\Qqt\src\DialogButtonBox.cpp" />
+    <ClCompile Include="..\..\Qqt\src\DirString.cpp" />
+    <ClCompile Include="..\..\Qqt\src\FileFacility.cpp" />
+    <ClCompile Include="..\..\Qqt\src\FileReader.cpp" />
+    <ClCompile Include="..\..\Qqt\src\FileWriter.cpp" />
+    <ClCompile Include="..\..\Qqt\src\FormLayout.cpp" />
+    <ClCompile Include="..\..\Qqt\src\GridLayout.cpp" />
+    <ClCompile Include="..\..\Qqt\src\GroupBox.cpp" />
+    <ClCompile Include="..\..\Qqt\src\HBoxLayout.cpp" />
+    <ClCompile Include="..\..\Qqt\src\includeMore.cpp" />
+    <ClCompile Include="..\..\Qqt\src\Label.cpp" />
+    <ClCompile Include="..\..\Qqt\src\Layout.cpp" />
+    <ClCompile Include="..\..\Qqt\src\LineEdit.cpp" />
+    <ClCompile Include="..\..\Qqt\src\Menu.cpp" />
+    <ClCompile Include="..\..\Qqt\src\MenuButton.cpp" />
+    <ClCompile Include="..\..\Qqt\src\MsgBox.cpp" />
+    <ClCompile Include="..\..\Qqt\src\Object.cpp" />
+    <ClCompile Include="..\..\Qqt\src\Parser.cpp" />
+    <ClCompile Include="..\..\Qqt\src\ProgressBar.cpp" />
+    <ClCompile Include="..\..\Qqt\src\PushButton.cpp" />
+    <ClCompile Include="..\..\Qqt\src\RadioButton.cpp" />
+    <ClCompile Include="..\..\Qqt\src\ReadStatus.cpp" />
+    <ClCompile Include="..\..\Qqt\src\RotatableToolBar.cpp" />
+    <ClCompile Include="..\..\Qqt\src\Settings.cpp" />
+    <ClCompile Include="..\..\Qqt\src\SignalEmitter.cpp" />
+    <ClCompile Include="..\..\Qqt\src\SpinBox.cpp" />
+    <ClCompile Include="..\..\Qqt\src\Splitter.cpp" />
+    <ClCompile Include="..\..\Qqt\src\TabWidget.cpp" />
+    <ClCompile Include="..\..\Qqt\src\ToolBar.cpp" />
+    <ClCompile Include="..\..\Qqt\src\ToolButton.cpp" />
+    <ClCompile Include="..\..\Qqt\src\ToString.cpp" />
+    <ClCompile Include="..\..\Qqt\src\VBoxLayout.cpp" />
+    <ClCompile Include="..\..\Qqt\src\Widget.cpp" />
+    <ClCompile Include="..\..\Qqt\src\WidgetPropertyRedirects.cpp" />
     <ClCompile Include="Chromosome.cpp" />
     <ClCompile Include="Gene.cpp" />
     <ClCompile Include="GeneratedFiles\Debug\moc_MainWindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RotatableToolBar.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SignalEmitter.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -169,6 +220,14 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RotatableToolBar.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SignalEmitter.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Genome.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MainWindow.cpp" />
@@ -182,6 +241,90 @@
     <ClCompile Include="Population.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Qqt\src\AbstractButtonPropertyRedirects.h" />
+    <ClInclude Include="..\..\Qqt\src\AbstractSpinBoxPropertyRedirects.h" />
+    <ClInclude Include="..\..\Qqt\src\Action.h" />
+    <ClInclude Include="..\..\Qqt\src\BoxLayout.h" />
+    <ClInclude Include="..\..\Qqt\src\ButtonGroup.h" />
+    <ClInclude Include="..\..\Qqt\src\ByteArrayWithDataStream.h" />
+    <ClInclude Include="..\..\Qqt\src\CheckBox.h" />
+    <ClInclude Include="..\..\Qqt\src\ComboBox.h" />
+    <ClInclude Include="..\..\Qqt\src\CompactHBoxLayout.h" />
+    <ClInclude Include="..\..\Qqt\src\CompactVBoxLayout.h" />
+    <ClInclude Include="..\..\Qqt\src\CtorProcessorT.h" />
+    <ClInclude Include="..\..\Qqt\src\DialogButtonBox.h" />
+    <ClInclude Include="..\..\Qqt\src\DirString.h" />
+    <ClInclude Include="..\..\Qqt\src\FileFacility.h" />
+    <ClInclude Include="..\..\Qqt\src\FileReader.h" />
+    <ClInclude Include="..\..\Qqt\src\FileWriter.h" />
+    <ClInclude Include="..\..\Qqt\src\FormLayout.h" />
+    <ClInclude Include="..\..\Qqt\src\GridLayout.h" />
+    <ClInclude Include="..\..\Qqt\src\GroupBox.h" />
+    <ClInclude Include="..\..\Qqt\src\HBoxLayout.h" />
+    <ClInclude Include="..\..\Qqt\src\includeMe.h" />
+    <ClInclude Include="..\..\Qqt\src\includeMore.h" />
+    <ClInclude Include="..\..\Qqt\src\Label.h" />
+    <ClInclude Include="..\..\Qqt\src\Layout.h" />
+    <ClInclude Include="..\..\Qqt\src\LineEdit.h" />
+    <ClInclude Include="..\..\Qqt\src\Menu.h" />
+    <ClInclude Include="..\..\Qqt\src\MenuButton.h" />
+    <ClInclude Include="..\..\Qqt\src\MsgBox.h" />
+    <ClInclude Include="..\..\Qqt\src\New.h" />
+    <ClInclude Include="..\..\Qqt\src\Object.h" />
+    <ClInclude Include="..\..\Qqt\src\Parser.h" />
+    <ClInclude Include="..\..\Qqt\src\preprocessor.h" />
+    <ClInclude Include="..\..\Qqt\src\ProgressBar.h" />
+    <ClInclude Include="..\..\Qqt\src\PropertyRedirect.h" />
+    <ClInclude Include="..\..\Qqt\src\PushButton.h" />
+    <ClInclude Include="..\..\Qqt\src\RadioButton.h" />
+    <ClInclude Include="..\..\Qqt\src\ReadStatus.h" />
+    <ClInclude Include="..\..\Qqt\src\Settings.h" />
+    <ClInclude Include="..\..\Qqt\src\SpinBox.h" />
+    <ClInclude Include="..\..\Qqt\src\Splitter.h" />
+    <ClInclude Include="..\..\Qqt\src\TabWidget.h" />
+    <ClInclude Include="..\..\Qqt\src\ToolBar.h" />
+    <ClInclude Include="..\..\Qqt\src\ToolButton.h" />
+    <ClInclude Include="..\..\Qqt\src\TopResult.h" />
+    <ClInclude Include="..\..\Qqt\src\ToString.h" />
+    <ClInclude Include="..\..\Qqt\src\VBoxLayout.h" />
+    <ClInclude Include="..\..\Qqt\src\Widget.h" />
+    <ClInclude Include="..\..\Qqt\src\WidgetPropertyRedirects.h" />
+    <CustomBuild Include="..\..\Qqt\src\SignalEmitter.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing SignalEmitter.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp" "-fpch.h" "-f../../../../Qqt/src/SignalEmitter.h"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtWidgets"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing SignalEmitter.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp" "-fpch.h" "-f../../../../Qqt/src/SignalEmitter.h"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtWidgets"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing SignalEmitter.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp" "-fpch.h" "-f../../../../Qqt/src/SignalEmitter.h"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtWidgets"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing SignalEmitter.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp" "-fpch.h" "-f../../../../Qqt/src/SignalEmitter.h"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtWidgets"</Command>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Qqt\src\RotatableToolBar.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing RotatableToolBar.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp" "-fpch.h" "-f../../../../Qqt/src/RotatableToolBar.h"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtWidgets"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing RotatableToolBar.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp" "-fpch.h" "-f../../../../Qqt/src/RotatableToolBar.h"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtWidgets"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing RotatableToolBar.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp" "-fpch.h" "-f../../../../Qqt/src/RotatableToolBar.h"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtWidgets"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing RotatableToolBar.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp" "-fpch.h" "-f../../../../Qqt/src/RotatableToolBar.h"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtWidgets"</Command>
+    </CustomBuild>
     <ClInclude Include="Chromosome.h" />
     <ClInclude Include="Gene.h" />
     <ClInclude Include="Genome.h" />

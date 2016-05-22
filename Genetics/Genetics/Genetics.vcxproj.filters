@@ -33,6 +33,9 @@
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="Qqt">
+      <UniqueIdentifier>{8d961767-ee17-4707-b5fd-0ba576ed9227}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -68,6 +71,147 @@
     <ClCompile Include="Population.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\AbstractButtonPropertyRedirects.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\AbstractSpinBoxPropertyRedirects.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\Action.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\BoxLayout.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\ButtonGroup.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\CheckBox.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\ComboBox.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\CompactHBoxLayout.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\CompactVBoxLayout.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\DialogButtonBox.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\DirString.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\FileFacility.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\FileReader.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\FileWriter.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\FormLayout.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\GridLayout.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\GroupBox.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\HBoxLayout.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\includeMore.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\Label.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\Layout.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\LineEdit.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\Menu.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\MenuButton.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\MsgBox.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\Object.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\Parser.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\ProgressBar.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\PushButton.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\RadioButton.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\ReadStatus.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\RotatableToolBar.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RotatableToolBar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RotatableToolBar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\Settings.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\SignalEmitter.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SignalEmitter.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SignalEmitter.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\SpinBox.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\Splitter.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\TabWidget.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\ToolBar.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\ToolButton.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\ToString.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\VBoxLayout.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\Widget.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Qqt\src\WidgetPropertyRedirects.cpp">
+      <Filter>Qqt</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="MainWindow.qrc">
@@ -75,6 +219,12 @@
     </CustomBuild>
     <CustomBuild Include="MainWindow.h">
       <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Qqt\src\RotatableToolBar.h">
+      <Filter>Qqt</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Qqt\src\SignalEmitter.h">
+      <Filter>Qqt</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -98,6 +248,150 @@
     </ClInclude>
     <ClInclude Include="Population.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\AbstractButtonPropertyRedirects.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\AbstractSpinBoxPropertyRedirects.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\Action.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\BoxLayout.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\ButtonGroup.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\ByteArrayWithDataStream.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\CheckBox.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\ComboBox.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\CompactHBoxLayout.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\CompactVBoxLayout.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\CtorProcessorT.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\DialogButtonBox.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\DirString.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\FileFacility.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\FileReader.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\FileWriter.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\FormLayout.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\GridLayout.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\GroupBox.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\HBoxLayout.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\includeMe.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\includeMore.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\Label.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\Layout.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\LineEdit.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\Menu.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\MenuButton.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\MsgBox.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\New.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\Object.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\Parser.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\preprocessor.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\ProgressBar.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\PropertyRedirect.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\PushButton.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\RadioButton.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\ReadStatus.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\Settings.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\SpinBox.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\Splitter.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\TabWidget.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\ToolBar.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\ToolButton.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\TopResult.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\ToString.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\VBoxLayout.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\Widget.h">
+      <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Qqt\src\WidgetPropertyRedirects.h">
+      <Filter>Qqt</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
