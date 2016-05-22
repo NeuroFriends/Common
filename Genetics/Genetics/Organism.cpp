@@ -2,5 +2,9 @@
 #include "pch.h"
 #include "Organism.h"
 
-Organism::Organism() {
+Organism::Organism(const Organism*father, const Organism* mother, const QDateTime & birth):
+	_father(father),
+	_mother(mother),
+	_birth(birth)
+{
 }
