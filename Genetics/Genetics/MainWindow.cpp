@@ -1,13 +1,7 @@
 #include "stdafx.h"
 #include "MainWindow.h"
 
-MainWindow::MainWindow(QWidget *parent)
-	: QMainWindow(parent)
-{
-	ui.setupUi(this);
+MainWindow::MainWindow(QWidget *parent): QMainWindow(parent) {
 }
-
-MainWindow::~MainWindow()
-{
-
+MainWindow::~MainWindow() {
 }

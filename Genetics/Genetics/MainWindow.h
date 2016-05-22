@@ -1,19 +1,8 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#pragma once
 
-#include <QtWidgets/QMainWindow>
-#include "ui_mainwindow.h"
-
-class MainWindow : public QMainWindow
-{
+class MainWindow: public QMainWindow {
 	Q_OBJECT
-
-public:
-	MainWindow(QWidget *parent = 0);
-	~MainWindow();
-
-private:
-	Ui::MainWindowClass ui;
+	public:
+		MainWindow(QWidget *parent = 0);
+		~MainWindow();
 };
-
-#endif // MAINWINDOW_H
