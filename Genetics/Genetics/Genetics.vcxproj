@@ -231,6 +231,8 @@
     <ClCompile Include="Genome.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="MutationGenerator.cpp" />
+    <ClCompile Include="MutationRates.cpp" />
     <ClCompile Include="Organism.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -239,6 +241,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Population.cpp" />
+    <ClCompile Include="Tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Qqt\src\AbstractButtonPropertyRedirects.h" />
@@ -289,6 +292,9 @@
     <ClInclude Include="..\..\Qqt\src\VBoxLayout.h" />
     <ClInclude Include="..\..\Qqt\src\Widget.h" />
     <ClInclude Include="..\..\Qqt\src\WidgetPropertyRedirects.h" />
+    <ClInclude Include="MutationGenerator.h" />
+    <ClInclude Include="MutationRates.h" />
+    <ClInclude Include="Tests.h" />
     <CustomBuild Include="..\..\Qqt\src\SignalEmitter.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing SignalEmitter.h...</Message>

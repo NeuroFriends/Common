@@ -10,5 +10,5 @@ Chromosome::Pair* Genome::sexChromosomes()const {
 }
 bool Genome::isMale()const {
 	auto pair = sexChromosomes();
-	return pair->_father._genes.contains(Gene::MaleGeneInstance);
+	return pair->_fromFather.contains(Gene::MaleGeneInstance);
 }

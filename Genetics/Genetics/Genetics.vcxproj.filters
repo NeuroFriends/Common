@@ -212,6 +212,15 @@
     <ClCompile Include="..\..\Qqt\src\WidgetPropertyRedirects.cpp">
       <Filter>Qqt</Filter>
     </ClCompile>
+    <ClCompile Include="MutationRates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MutationGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="MainWindow.qrc">
@@ -392,6 +401,15 @@
     </ClInclude>
     <ClInclude Include="..\..\Qqt\src\WidgetPropertyRedirects.h">
       <Filter>Qqt</Filter>
+    </ClInclude>
+    <ClInclude Include="MutationRates.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MutationGenerator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
