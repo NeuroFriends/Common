@@ -1,13 +1,13 @@
 /* console.trace():
 before we have:
-selectFirstItem (qrc:/qml/ui/accordion/LibraryPropertyViewsAccordionItem.qml:179)
-selectFirstItemBoth (qrc:/qml/ui/accordion/LibraryPropertyViewsAccordionItem.qml:164)
-onTriggered (qrc:/qml/ui/accordion/LibraryPropertyViewsAccordionItem.qml:202)
+selectFirstItem (qrc:/qml/ui/accordion/SomeLongName.qml:179)
+selectFirstItemBoth (qrc:/qml/ui/accordion/OtherSomeLongName.qml:164)
+onTriggered (qrc:/qml/ui/accordion/OtherSomeLongName23.qml:202)
 
 After maybeChangeQmlFormatting() we have:
-selectFirstItem  qrc:/qml/ui/accordion/ LibraryPropertyViewsAccordionItem.qml:179
-selectFirstItemBoth  qrc:/qml/ui/accordion/ LibraryPropertyViewsAccordionItem.qml:164
-onTriggered  qrc:/qml/ui/accordion/ LibraryPropertyViewsAccordionItem.qml:202
+selectFirstItem  qrc:/qml/ui/accordion/ SomeLongName.qml:179
+selectFirstItemBoth  qrc:/qml/ui/accordion/ OtherSomeLongName.qml:164
+onTriggered  qrc:/qml/ui/accordion/ OtherSomeLongName23.qml:202
 */
 void maybeChangeQmlFormatting(QString & str) {
 	auto lines = str.split("\n");
