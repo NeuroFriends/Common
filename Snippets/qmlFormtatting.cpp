@@ -1,10 +1,9 @@
-/* console.trace():
-before we have:
+/* console.trace() produces output like this:
 selectFirstItem (qrc:/qml/ui/accordion/SomeLongName.qml:179)
 selectFirstItemBoth (qrc:/qml/ui/accordion/OtherSomeLongName.qml:164)
 onTriggered (qrc:/qml/ui/accordion/OtherSomeLongName23.qml:202)
 
-After maybeChangeQmlFormatting() we have:
+Which is inconvenient to copy file name with line number. After maybeChangeQmlFormatting() we have:
 selectFirstItem  qrc:/qml/ui/accordion/ SomeLongName.qml:179
 selectFirstItemBoth  qrc:/qml/ui/accordion/ OtherSomeLongName.qml:164
 onTriggered  qrc:/qml/ui/accordion/ OtherSomeLongName23.qml:202
