@@ -20,6 +20,8 @@ Makefile
 *-build-*
 
 # Visual Studio
+*.VC.db
+*.VC.opendb
 *.[Oo]bj
 *.user
 *.aps
